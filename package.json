@@ -1,0 +1,21 @@
+{
+  "name": "opsview",
+  "version": "0.0.0",
+  "description": "50k foot view of teams and apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ops",
+    "devops",
+    "grpc"
+  ],
+  "author": "zach pratt <zach@attackofzach.com> (http://attackofzach.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.4.0",
+    "google-protobuf": "^3.7.0-rc.2",
+    "grpc": "^1.18.0"
+  }
+}

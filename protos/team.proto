@@ -1,0 +1,15 @@
+syntax = "proto3";
+import "google/protobuf/empty.proto";
+package team;
+
+service TeamService {
+    rpc getTeams(google.protobuf.Empty) returns (TeamList) {}
+}
+
+message TeamList {
+    repeated Team teams = 1;
+}
+
+message Team {
+    string name = 1;
+}
